@@ -38,13 +38,11 @@ Install git, docker, docker-compose.  Verify status and hello-world
 # curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 # chmod +x /usr/local/bin/docker-compose
 # docker-compose --version
+# groupadd docker
+# usermod -aG docker jkozik
 ```
-Login as jkozik
+Login as jkozik. Verify that docker, docker-compose and git all work
 
-
-
-
-    6  hostnamectl set-hostname "Zabbix 5.0 Server"
 ```
 # apk update
 # apk add vim
