@@ -40,6 +40,7 @@ Install git, docker, docker-compose.  Verify status and hello-world
 # docker-compose --version
 # groupadd docker
 # usermod -aG docker jkozik
+# chmod 666 /var/run/docker.sock
 ```
 Login as jkozik. Verify that docker, docker-compose and git all work
 
