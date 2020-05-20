@@ -27,7 +27,8 @@ Install git, docker, docker-compose.  Verify status and hello-world
 ```
 # yum install -y yum-utils device-mapper-persistent-data lvm2
 # yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-# yum install docker
+# yum install git docker
+# git --version
 # systemctl start docker
 # systemctl enable docker
 # systemctl status docker0
