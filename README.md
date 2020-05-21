@@ -1,9 +1,6 @@
 # SetupCentOS7
 Notes on setting up CentOS 7
 
-# SetupAlpineVM
-Notes for setting up Alpine in a VirtualBox VM
-
 I have been using Centos 7 for my VMs.  Most of the time now, I run containers in my VMs.  Here's notes on how I setup my docker host based on Centos 7.
 ```
 # yum update
